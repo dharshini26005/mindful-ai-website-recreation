@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mindful AI</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+
+</head>
+
+<body>
+    
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#">MindfulAI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link px-3" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="{{ url_for('portfolio') }}">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="{{ url_for('contact') }}">Contact</a></li>
+                <li class="nav-item ms-3">
+                   <a href="{{ url_for('chat_page') }}" class="btn btn-primary">
+    Chat with us
+</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="container py-5 hero">
+    <div class="row align-items-center">
+        <div class="col-lg-6">
+            <h1 class="fw-bold display-5 animated-title">
+                Empowering Futures<br />with Mindful AI Solutions
+            </h1>
+
+            <p class="mt-4">
+                At Mindful AI, we harness cutting-edge artificial intelligence to transform businesses,
+                drive innovation, and create intelligent solutions that adapt and grow with your needs.
+            </p>
+             <li class="btn btn-primary mt-3">
+                  <a href="http://127.0.0.1:5000/apply" class="btn btn-primary">
+  Apply Now
+</a>
+
+        </div>
+
+        <div class="col-lg-6 text-center">
+            <img src="{{ url_for('static', filename='front.webp') }}">
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= LEARN MORE BUTTON ================= -->
+<div class="text-center my-5">
+    <a href="#services" class="learn-more-btn">Learn More</a>
+</div>
+
+<!-- ================= SERVICES ================= -->
+<section class="services py-5" id="services">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4 animated-title">Our Services</h2>
+
+        <div class="row g-4">
+
+           <div class="col-md-4">
+    <a href="/service/ml" class="service-link">
+        <div class="service-card p-4 rounded-3 h-100">
+             <img src="{{ url_for('static', filename='ml.png') }}">
+            <h5 class="fw-bold">Machine Learning</h5>
+            <p>We deliver advanced ML solutions to automate, analyze, and optimize business processes.</p>
+        </div>
+    </a>
+</div>
+
+
+            <div class="col-md-4">
+    <a href="/service/ui" class="service-link">
+        <div class="service-card p-4 rounded-3 h-100">
+           <img src="{{ url_for('static', filename='uiux.png') }}">
+            <h5 class="fw-bold">UI/UX Design</h5>
+            <p>We craft intuitive and visually appealing designs for web and mobile applications.</p>
+        </div>
+    </a>
+</div>
+
+
+            <div class="col-md-4">
+    <a href="/service/genai" class="service-link">
+        <div class="service-card p-4 rounded-3 h-100">
+             <img src="{{ url_for('static', filename='genai.png') }}">
+            <h5 class="fw-bold">Generative AI</h5>
+            <p>We build intelligent AI automation tools that boost workflows and creativity.</p>
+        </div>
+    </a>
+</div>
+
+
+            <div class="col-md-4">
+    <a href="/service/fullstack" class="service-link">
+        <div class="service-card p-4 rounded-3 h-100">
+            <img src="{{ url_for('static', filename='mern.png') }}">
+            <h5 class="fw-bold">MERN Stack</h5>
+            <p>We develop scalable full-stack web apps using MongoDB, Express, React & Node.js.</p>
+        </div>
+    </a>
+</div>
+
+
+           <div class="col-md-4">
+    <a href="/service/cloud" class="service-link">
+        <div class="service-card p-4 rounded-3 h-100">
+            <img src="{{ url_for('static', filename='cloud.png') }}">
+            <h5 class="fw-bold">Cloud Solutions</h5>
+            <p>We deploy secure, optimized cloud systems for modern digital operations.</p>
+        </div>
+    </a>
+</div>
+
+
+            <div class="col-md-4">
+    <a href="/service/sap" class="service-link">
+        <div class="service-card p-4 rounded-3 h-100">
+             <img src="{{ url_for('static', filename='sap.webp') }}">
+            <h5 class="fw-bold">SAP / Education</h5>
+            <p>We provide efficient SAP & learning solutions for business and student growth.</p>
+        </div>
+    </a>
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="mindful-footer">
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <h2>MindfulAI</h2>
+      <p>
+        Building calm, intelligent, and human-centered AI solutions for learning,
+        growth, and meaningful experiences.
+      </p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-links">
+      <h6>Quick Links</h6>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('home') }}">Services</a></li>
+        <li><a href="{{ url_for('portfolio') }}">Portfolio</a></li>
+        <li><a href="{{ url_for('chat_page') }}">Chat</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-contact">
+      <h6>Contact</h6>
+      <p>
+        SNS Kalvi Nagar, Sathy Main Road,<br>
+        Kurumbapalayam, Coimbatore,<br>
+        Tamil Nadu 641107
+      </p>
+
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/mindfulai003/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/mindfulai_technologies/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Mindful-AI/61555415154633"><i class="bi bi-facebook"></i></a>
+        <a href="https://x.com/MindFulAI_Tech?t=uaUx2Ym5fVFwSimTddx3Og&s=09"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 MindfulAI Pvt Ltd. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

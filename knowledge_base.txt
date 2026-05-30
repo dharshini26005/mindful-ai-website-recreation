@@ -1,0 +1,421 @@
+{
+  "company": {
+    "name": "MindfulAI Technologies Private Limited",
+    "summary": "MindfulAI Technologies Pvt Ltd is an AI-driven product & service company offering AI/ML, generative AI, full-stack development, UI/UX design, SAP modules and custom software solutions.",
+    "incorporation_date": "2024-05-08",
+    "cin": "U62099TZ2024PTC031482",
+    "registered_address": "RSF No.154/7, Lakshmi Nagar 3rd Street, Mamaruthupalayam, Peria Semur, Erode, Tamil Nadu 638004, India",
+    "business_hours": "09:00 - 18:00 Monday to Saturday",
+    "mission": "Use cutting-edge AI solutions to revolutionize businesses and create user-friendly AI services that improve quality of life."
+  },
+
+  "contact": {
+    "phones": ["+917530030103", "+916369411145"],
+    "email": null,
+    "website": "https://www.mindfulai.co.in",
+    "contact_page": "https://www.mindfulai.co.in/contact?utm_source=chatgpt.com",
+    "how_to_contact": "Call the phone numbers above or submit a request via the contact page to schedule a meeting."
+    "google_map": {
+  "label": "MindfulAI Office Location",
+  "map_link": "https://goo.gl/maps/E174zZ7FPLeF2xQTA?g_st=aw"
+}
+
+  },
+
+  "services": [
+    {
+      "id": "full_stack",
+      "name": "Full-Stack Web & App Development",
+      "description": "End-to-end web and mobile app development including frontend, backend, API, deployment and dashboards.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Django", "Python", "MySQL", "MongoDB"]
+    },
+
+    "internships": {
+  "available": true,
+  "summary": "MindfulAI offers industry-focused internships for students and freshers to gain hands-on experience in AI and software development.",
+  "domains": [
+    "Artificial Intelligence & Machine Learning",
+    "Data Science",
+    "Full-Stack Web Development",
+    "UI/UX Design",
+    "Generative AI",
+    "SAP Modules",
+    "Python Development"
+  ],
+  "mode": ["Remote", "Hybrid"],
+  "duration": "1 to 6 months",
+  "eligibility": "Students, freshers and early-career professionals with interest in technology and learning.",
+  "benefits": [
+    "Real-world project experience",
+    "Mentorship from industry professionals",
+    "Internship certificate",
+    "Performance-based full-time opportunity (where applicable)"
+  ]},
+
+    {
+      "id": "ml",
+      "name": "Machine Learning & Data Science",
+      "description": "Predictive analytics, classification, regression, clustering, recommendation systems, computer vision and NLP."
+    },
+    {
+      "id": "gen_ai",
+      "name": "Generative AI",
+      "description": "Custom LLM integrations, chatbots, text/image generation, RAG pipelines and automation using generative models."
+    },
+    {
+      "id": "uiux",
+      "name": "UI/UX Design",
+      "description": "Wireframes, prototypes, user testing and high-fidelity UI designs using Figma and related tools."
+    },
+    {
+      "id": "sap",
+      "name": "SAP Modules & Enterprise Solutions",
+      "description": "SAP workflow setup, module customization, enterprise process automation."
+    },
+    {
+      "id": "custom_software",
+      "name": "Custom Software & Consultancy",
+      "description": "Tailored software products, CRM/ERP systems, IoT dashboards and technical consultancy for digital transformation."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "What does MindfulAI do?",
+      "answer": "MindfulAI provides AI-powered software solutions including ML models, generative AI, full-stack web and mobile apps, UI/UX design, SAP modules and custom enterprise software."
+    },
+    {
+      "question": "Where are you located?",
+      "answer": "Our registered office is in Erode, Tamil Nadu, India: RSF No.154/7, Lakshmi Nagar 3rd Street, Mamaruthupalayam, Peria Semur, Erode 638004."
+    },
+    {
+      "question": "When was MindfulAI incorporated?",
+      "answer": "MindfulAI Technologies Pvt Ltd was incorporated on 08 May 2024 (CIN: U62099TZ2024PTC031482)."
+    },
+    {
+      "question": "How can I contact MindfulAI?",
+      "answer": "You can call +91 75300 30103 or +91 63694 11145, or use the contact form on our website at mindfulai.co.in/contact to schedule a meeting."
+    },
+    {
+      "question": "Do you build chatbots?",
+      "answer": "Yes — we build AI-powered chatbots (RAG-based and LLM-integrated) for customer support, sales, and internal automation."
+    },
+    {
+      "question": "What technologies do you use for AI?",
+      "answer": "We use Python, TensorFlow/PyTorch, OpenAI/HuggingFace integrations, RAG pipelines, and common ML/DS tooling depending on the project requirements."
+    },
+    {
+      "question": "Do you provide pricing or quotes?",
+      "answer": "Pricing depends on project scope. Please share project requirements via the contact page or call us to get a customized quote."
+    },
+    {
+      "question": "Do you do enterprise/SAP work?",
+      "answer": "Yes — we provide SAP module development, integration and enterprise automation solutions."
+    },
+    {
+      "question": "Do you accept international projects?",
+      "answer": "Yes — we work with clients worldwide. Contact us to discuss timezones and logistics."
+    },
+    {
+      "question": "Do you offer ongoing maintenance?",
+      "answer": "Yes — maintenance, updates and support can be included as part of the project or via separate SLA-based contracts."
+    },
+    {
+      "question": "What industries do you serve?",
+      "answer": "We work with education, healthcare, retail, startups, enterprises and many other sectors that need AI and software solutions."
+    },
+    {
+      "question": "Is client data kept confidential?",
+      "answer": "Yes — client data and project details are handled confidentially under standard NDAs and contractual terms."
+    },
+    {
+      "question": "How long does a typical project take?",
+      "answer": "Timelines vary: small websites can take 2–4 weeks; medium custom apps 6–12 weeks; complex AI projects 2–6+ months depending on data and scope."
+    },
+    {
+      "question": "Can you integrate AI into our existing system?",
+      "answer": "Yes — we can integrate ML models, APIs and chatbot interfaces into legacy systems, CRMs and web platforms."
+    },
+    {
+      "question": "Do you provide training?",
+      "answer": "We provide training and handover sessions for delivered solutions on request."
+    },
+    {
+      "question": "How do I request a demo?",
+      "answer": "Use the contact form on our website or call us. Mention you want a demo and preferred times; we will arrange a meeting."
+    },
+    {
+      "question": "Do you make e-commerce websites?",
+      "answer": "Yes — we build custom e-commerce platforms and integrate payment gateways, catalogs and order management."
+    },
+    {
+      "question": "Can you develop mobile apps?",
+      "answer": "Yes — we develop mobile applications (native and cross-platform) along with backend and APIs."
+    },
+    {
+      "question": "What should I provide to get a quote?",
+      "answer": "Share the project goal, target users, desired features, integrations, timeline and budget. The more details, the faster we can estimate."
+    },
+    {
+      "question": "What sets MindfulAI apart?",
+      "answer": "A strong focus on applied AI, end-to-end product delivery, and tailored solutions that align technology with business outcomes."
+    }
+
+    {
+  "question": "Do you offer internships?",
+  "answer": "Yes — MindfulAI offers internships in AI/ML, Data Science, Full-Stack Development, UI/UX, Generative AI and SAP. Students and freshers can apply via the internship application link."
+},
+{
+  "question": "How can I apply for an internship at MindfulAI?",
+  "answer": "You can apply using the internship application form available on our website or via the provided apply link."
+}
+
+  ],
+
+  "intent_bank": {
+    "about_company": {
+      "canonical": "What does MindfulAI do?",
+      "variations": [
+        "What is MindfulAI?",
+        "Tell me about your company",
+        "Who are you?",
+        "What kind of company is MindfulAI?",
+        "mindful ai kya karta hai?",
+        "Give me a short intro about MindfulAI",
+        "mindfulai company info",
+        "Company details please",
+        "Describe MindfulAI in one sentence",
+        "what do you do?"
+      ]
+    },
+
+    "location": {
+      "canonical": "Where is your office located?",
+      "variations": [
+        "Where are you located?",
+        "Office address?",
+        "What is your address?",
+        "Where is MindfulAI located?",
+        "Are you based in India?",
+        "Are you in Erode?",
+        "What is your registered address?",
+        "How can I reach your office?",
+        "Give me the company location",
+        "location pls",
+        "locaion?",
+        "adress?",
+        "Where r u?"
+      ]
+    },
+
+    "contact": {
+      "canonical": "How do I contact MindfulAI?",
+      "variations": [
+        "How can I contact you?",
+        "Phone number please",
+        "What's your contact number?",
+        "Email address?",
+        "Contact details",
+        "How do I get in touch?",
+        "Do you have WhatsApp?",
+        "Can I schedule a meeting?",
+        "Book a call",
+        "Contact no boliye",
+        "Number send karo"
+      ]
+    },
+
+    "services_what": {
+      "canonical": "What services do you provide?",
+      "variations": [
+        "What services do you offer?",
+        "List of services?",
+        "Do you provide AI services?",
+        "Do you build websites?",
+        "Do you do app development?",
+        "Do you offer UI/UX design?",
+        "Do you provide SAP services?",
+        "Tell me your service offerings",
+        "What all do you build?",
+        "Kya kya services dete ho?"
+      ]
+    },
+
+    "pricing": {
+      "canonical": "How much do your services cost?",
+      "variations": [
+        "What is your pricing?",
+        "How much for a website?",
+        "Cost for a chatbot?",
+        "Do you have fixed pricing?",
+        "How to get a quote?",
+        "What are your charges?",
+        "Price?",
+        "Cost?"
+      ]
+    },
+
+    "demo_booking": {
+      "canonical": "Can I schedule a demo or meeting?",
+      "variations": [
+        "Can I book a demo?",
+        "How to schedule a meeting?",
+        "Do you offer free consultations?",
+        "Can I talk to your team live?",
+        "Book a call",
+        "Schedule demo",
+        "Meeting slots?"
+      ]
+    },
+
+    "project_request": {
+      "canonical": "Can you build custom software or AI for my business?",
+      "variations": [
+        "Can you build a project for my company?",
+        "I have an idea, can you implement it?",
+        "Do you take freelance/custom projects?",
+        "Will you build an ERP for us?",
+        "Can you build an e-commerce site?",
+        "Do you accept startup projects?"
+      ]
+    },
+
+    "timelines": {
+      "canonical": "How long does a typical project take?",
+      "variations": [
+        "What is the timeline for development?",
+        "How long to build a website?",
+        "Time taken for AI project?",
+        "Delivery time?",
+        "Project duration?"
+      ]
+    },
+
+    "support": {
+      "canonical": "I need support / I have an issue",
+      "variations": [
+        "I need help",
+        "Support please",
+        "Something is not working",
+        "My website is down",
+        "My model is not working",
+        "Can you help me debug?",
+        "Help me out"
+      ]
+    },
+
+    "data_privacy": {
+      "canonical": "Is my data safe?",
+      "variations": [
+        "Do you keep client data confidential?",
+        "How do you handle data privacy?",
+        "Is my data secure?",
+        "NDA?",
+        "Do you sign NDAs?"
+      ]
+    },
+
+    "capabilities": {
+      "canonical": "What AI/ML capabilities do you have?",
+      "variations": [
+        "Do you build ML models?",
+        "Do you do NLP and computer vision?",
+        "Can you build recommendation systems?",
+        "Do you support LLM integration?",
+        "Do you do generative AI?"
+      ]
+    },
+
+    "general_fallback": {
+      "canonical": "I'm sorry, I didn't understand. Can you rephrase?",
+      "variations": [
+        "I didn't get that",
+        "What do you mean?",
+        "Can you explain?",
+        "Say again?",
+        "huh?"
+      ]
+    }
+
+
+    "internship_info": {
+  "canonical": "Do you offer internships?",
+  "variations": [
+    "Internship available?",
+    "Do you provide internships?",
+    "Any internship opportunities?",
+    "Student internship?",
+    "AI internship?",
+    "Web development internship?",
+    "UI UX internship?",
+    "SAP internship?",
+    "Internship details please",
+    "mindful ai internship"
+  ]
+},
+
+"internship_apply": {
+  "canonical": "How can I apply for internship?",
+  "variations": [
+    "How to apply for internship?",
+    "Internship apply link",
+    "Apply for internship",
+    "Where to apply?",
+    "Application link for internship",
+    "Can I apply now?"
+  ]
+},
+
+"office_location_map": {
+  "canonical": "Can you share Google Maps location?",
+  "variations": [
+    "Google map link",
+    "Show me on map",
+    "Office location on Google Maps",
+    "Map location",
+    "Send location link"
+  ]
+}
+
+  },
+
+  "location_variations_precise": {
+    "short": [
+      "Where are you?",
+      "Location?",
+      "Address?"
+    ],
+    "long": [
+      "What is the exact postal address of your office including street and PIN code?",
+      "Please give me the registered office address with city and state."
+    ],
+    "how_to_reach": [
+      "How can I reach your office from Erode central?",
+      "Is there any landmark near your office?"
+    ],
+    "misspellings": [
+      "locaion",
+      "adress",
+      "erod"
+    ],
+    "map_phrases": [
+      "Show me on map",
+      "Can you share Google Maps link?"
+    ]
+  },
+
+  "fallbacks": {
+    "unclear": "I'm not sure I understood. Could you provide more details or rephrase your question?",
+    "out_of_scope": "I can help with information about MindfulAI (services, contact, location, pricing and demos). For other topics I recommend searching or asking a specialist.",
+    "escalate_support": "I will connect you with our support team. Please provide your name, email/phone and a short description of the issue."
+  },
+
+  "sample_small_tips_for_nlu": {
+    "intent_matching_strategy": "Use fuzzy matching + synonyms + lowercase normalization; use the 'intent_bank' canonical values as labels",
+    "entity_examples": {
+      "location": ["Erode", "Tamil Nadu", "India"],
+      "service": ["chatbot", "website", "UI/UX", "SAP"],
+      "contact_method": ["phone", "email", "meeting"]
+    }
+  }
+}

@@ -1,0 +1,244 @@
+/* ===============================
+   GLOBAL
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #0a2a43, #020b1a);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+.navbar {
+  background: rgba(81, 114, 139, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.navbar-brand {
+  color: #7ddcff !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #cfdfff !important;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #00c6ff !important;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 198, 255, 0.45);
+}
+
+/* ===============================
+   CONTACT + SLOT SECTION
+================================ */
+.contact-section {
+  padding: 130px 0 100px;
+  min-height: calc(100vh - 120px);
+}
+
+/* GLASS CARD */
+.glass-card {
+  width: 100%;
+  padding: 38px 34px;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow:
+    0 0 30px rgba(0, 198, 255, 0.22),
+    inset 0 0 25px rgba(255, 255, 255, 0.05);
+  animation: fadeUp 0.8s ease;
+}
+
+/* TITLES */
+.glass-card h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #7ddcff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* FORM LABELS */
+.form-label {
+  font-size: 0.85rem;
+  color: #cfdfff;
+  margin-bottom: 6px;
+}
+
+/* INPUTS */
+.form-control {
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(0, 198, 255, 0.35);
+  border-radius: 14px;
+  padding: 11px 14px;
+  color: #ffffff;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.form-control::placeholder {
+  color: #9fbfff;
+}
+
+/* INPUT FOCUS */
+.form-control:focus {
+  background: rgba(0, 0, 0, 0.6);
+  border-color: #00c6ff;
+  box-shadow: 0 0 18px rgba(0, 198, 255, 0.45);
+  color: #ffffff;
+}
+
+/* DATE PICKER */
+input[type="date"] {
+  color-scheme: dark;
+  cursor: pointer;
+}
+
+/* TEXTAREA */
+textarea.form-control {
+  resize: none;
+}
+
+/* BUTTON */
+.glass-card .btn-primary {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 16px;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+.mindful-footer {
+  background: rgba(81, 114, 139, 0.6);
+  color: #dfe6ff;
+  padding: 80px 8% 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  gap: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 50px;
+}
+
+/* BRAND */
+.footer-brand h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-brand p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #bfc8ff;
+}
+
+/* LINKS */
+.footer-links h6,
+.footer-contact h6 {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #bfc8ff;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #00c6ff;
+}
+
+/* CONTACT */
+.footer-contact p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #bfc8ff;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  font-size: 0.85rem;
+  color: #9aa6d8;
+}
+
+/* ===============================
+   ANIMATION
+================================ */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding-top: 110px;
+  }
+
+  .glass-card {
+    padding: 30px 24px;
+    border-radius: 22px;
+  }
+
+  .glass-card h3 {
+    font-size: 1.5rem;
+  }
+}

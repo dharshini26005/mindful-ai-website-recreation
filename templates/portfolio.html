@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindfulAI | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons (for toggler fix) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='portfolio.css') }}">
+
+    
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">MindfulAI</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">Services</a></li>
+         <li class="nav-item"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-primary chat-btn" href="{{ url_for('chat_page') }}">Chat with us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 🔹 YOUR EXISTING CONTENT CONTINUES BELOW (UNCHANGED) -->
+
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text" data-aos="fade-right">
+    <h1 class="glow">MindfulAI Portfolio</h1>
+    <p>Innovating with Artificial Intelligence to create meaningful digital transformation.</p>
+    <a href="#team" class="btn">Meet the Team</a>
+  </div>
+  <!-- GROUP PHOTO CIRCLE -->
+  <div class="hero-visual" data-aos="zoom-in">
+    
+     <img src="{{ url_for('static', filename='img 1 about.jpg') }}" style="width:100%;height:100%;border-radius:50%;object-fit:cover;opacity:0.85;">
+  </div>
+</section>
+
+<!-- CEO -->
+<section class="ceo">
+  <div data-aos="fade-right" data-aos-delay="200">
+    <img src="{{ url_for('static', filename='ceo.jpg') }}"> 
+  </div>
+  <div data-aos="fade-left" data-aos-delay="300">
+    <h2 class="glow">Founder & CEO</h2>
+    <p style="font-size:1.1rem;margin-bottom:15px;">“Don't allow the technologies to rule you, instead you rule the technologies”</p>
+    <p><strong>- Harish Ravichandran</strong><br>CEO of MindFul Groups</p>
+    <p style="margin-top:10px;color:var(--cyan);">🏆 Awarded Emerging CEO of the Year</p>
+  </div>
+</section>
+
+<!-- VISION & MISSION -->
+<section>
+  <div class="vm-grid">
+    <div class="vm-card" data-aos="flip-left">
+      <h3>Our Vision</h3>
+      <p>Our vision is to be the main force behind digital transformation, enabling companies to reach their maximum potential by fusing human innovation with the combined power of technology. In the digital age, we want to redefine sectors, improve user experiences, and take businesses to levels never before achieved by developing innovative solutions.</p>
+    </div>
+    <div class="vm-card" data-aos="flip-right">
+      <h3>Our Mission</h3>
+      <p>Our mission is to provide innovative, customized technology solutions that go beyond accepted limits. By integrating cutting-edge technologies effectively, we focus to improve user experiences, improve processes, and promote business growth. We aim to be facilitators for our clients' success by refusing to give up on our pursuit of excellence. Creating lasting connections, our priority is to be the reliable guides</p>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+  <h2 class="glow" style="text-align:center;margin-bottom:50px;" data-aos="fade-up">Our Core Team</h2>
+  <div class="team-grid">
+
+    <!-- MEMBER TEMPLATE (x19) -->
+    <a class="member" href="https://www.linkedin.com/in/kolaa-pravin" target="_blank" data-aos="zoom-in" data-aos-delay="100">
+     <img src="{{ url_for('static', filename='about image 1.png') }}">
+      <h4>Kolaa Pravin</h4><span>Technical and Operation Manager</span>
+    </a>
+    <a class="member" href="https://www.linkedin.com/in/s-u-r-e-s-h" target="_blank" data-aos="zoom-in" data-aos-delay="150">
+      <img src="{{ url_for('static', filename='about image 2.png') }}">
+      <h4>Suresh S</h4><span>Technical and Development Manager</span>
+    </a>
+    <a class="member" href="https://linkedin.com" target="_blank" data-aos="zoom-in" data-aos-delay="200">
+      <img src="{{ url_for('static', filename='about image 3.png') }}">
+      <h4>Subhashith V</h4><span>Technical and Development Manager</span>
+    </a>
+    <a class="member" href="https://www.linkedin.com/in/kavin-kumar-karthikeyan" target="_blank" data-aos="zoom-in" data-aos-delay="250">
+      <img src="{{ url_for('static', filename='about image 4.png') }}">
+      <h4>KavinKumar K</h4><span>HR Manager</span>
+    </a>
+    <a class="member" href="https://www.linkedin.com/in/harini-kandasamy" target="_blank" data-aos="zoom-in" data-aos-delay="300">
+     <img src="{{ url_for('static', filename='about image 5.png') }}">
+      <h4>Harini K</h4><span></span>Organic Growth Manager
+    </a>
+
+    <a class="member" href="https://www.linkedin.com/in/vigneshwar-ks" target="_blank" data-aos="zoom-in" data-aos-delay="350"><img src="{{ url_for('static', filename='about image 6.png') }}"><h4>Vigneshwar KS</h4><span>Creative Design Manager</span></a>
+    <a class="member" href="https://www.linkedin.com/in/harisrimanikandan" target="_blank" data-aos="zoom-in" data-aos-delay="400"><img src="{{ url_for('static', filename='about image 7.png') }}"><h4>Harisri M</h4><span>Development and Networking Manager</span></a>
+    <a class="member" href="https://linkedin.com" target="_blank" data-aos="zoom-in" data-aos-delay="450"><img src="{{ url_for('static', filename='about image 8.png') }}"><h4>Aadithyan A</h4><span>Technical and Development   Lead</span></a>
+    <a class="member" href="https://www.linkedin.com/in/harivarshan-ganapathi" target="_blank" data-aos="zoom-in" data-aos-delay="500"><img src="{{ url_for('static', filename='about image 9.png') }}"><h4>Harivarshan UG</h4><span>Creative Designs and Networking Lead</span></a>
+    <a class="member" href="https://www.linkedin.com/in/priyadharshini-kulothungan" target="_blank" data-aos="zoom-in" data-aos-delay="550"><img src="{{ url_for('static', filename='pic 10 about.png') }}"><h4>Priyadharshini K</h4><span>Organic Growth Lead</span></a>
+
+    <a class="member" href="https://www.linkedin.com/in/revathy-r" target="_blank" data-aos="zoom-in" data-aos-delay="600"><img src="{{ url_for('static', filename='pic 11 about.png') }}"><h4>Revathy R</h4><span>Organic Growth Lead</span></a>
+    <a class="member" href="https://www.linkedin.com/in/subhiksha-sukumar" target="_blank" data-aos="zoom-in" data-aos-delay="650"><img src="{{ url_for('static', filename='pic 12 about.png') }}"><h4>Subhiksha S</h4><span>Organic Growth Lead</span></a>
+    <a class="member" href="https://www.linkedin.com/in/gobikha-k-201205113" target="_blank" data-aos="zoom-in" data-aos-delay="700"><img src="{{ url_for('static', filename='pic 13 about.png') }}"><h4>Gobhikha K</h4><span>Training Lead</span></a>
+    <a class="member" href="https://www.linkedin.com/in/abinaya-narayanan" target="_blank" data-aos="zoom-in" data-aos-delay="750"><img src="{{ url_for('static', filename='pic 14 about.png') }}"><h4>Abinaya N</h4><span>Technical Supervisor</span></a>
+    <a class="member" href="https://www.linkedin.com/in/rajagopalrj" target="_blank" data-aos="zoom-in" data-aos-delay="800"><img src="{{ url_for('static', filename='pic 15 about.png') }}"><h4>Rajagopal R</h4><span>Technical Supervisor</span></a>
+
+    <a class="member" href="https://www.linkedin.com/in/1709-mdgouse" target="_blank" data-aos="zoom-in" data-aos-delay="850"><img src="{{ url_for('static', filename='pic 16 about.png') }}"><h4>Mohammed Gouse B</h4><span>Technical Supervisor</span></a>
+    <a class="member" href="https://www.linkedin.com/in/dharanish-n-" target="_blank" data-aos="zoom-in" data-aos-delay="900"><img src="{{ url_for('static', filename='pic 17 about.png') }}"><h4>Dharanish N</h4><span>Process Analyst</span></a>
+    <a class="member" href="https://www.linkedin.com/in/gopika-chandran-" target="_blank" data-aos="zoom-in" data-aos-delay="950"><img src="{{ url_for('static', filename='pic 18 about.png') }}"><h4>Gopika M</h4><span>Process Analyst</span></a>
+    <a class="member" href="https://www.linkedin.com/in/iamragulr" target="_blank" data-aos="zoom-in" data-aos-delay="1000"><img src="{{ url_for('static', filename='pic 19 about.png') }}"><h4>Ragul R</h4><span>Process Analyst</span></a>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2 class="glow" data-aos="zoom-in">Let’s Build Intelligent Futures</h2>
+  <a href="#" class="btn">Work With Us</a>
+</section>
+
+<footer class="mindful-footer">
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <h2>MindfulAI</h2>
+      <p>
+        Building calm, intelligent, and human-centered AI solutions for learning,
+        growth, and meaningful experiences.
+      </p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-links">
+      <h6>Quick Links</h6>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('home') }}">Services</a></li>
+        <li><a href="{{ url_for('portfolio') }}">Portfolio</a></li>
+        <li><a href="{{ url_for('chat_page') }}">Chat</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-contact">
+      <h6>Contact</h6>
+      <p>
+        SNS Kalvi Nagar, Sathy Main Road,<br>
+        Kurumbapalayam, Coimbatore,<br>
+        Tamil Nadu 641107
+      </p>
+
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/mindfulai003/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/mindfulai_technologies/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Mindful-AI/61555415154633"><i class="bi bi-facebook"></i></a>
+        <a href="https://x.com/MindFulAI_Tech?t=uaUx2Ym5fVFwSimTddx3Og&s=09"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 MindfulAI Pvt Ltd. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({ duration: 1000, once: true });</script>
+
+</body>
+</html>
+
+ 
